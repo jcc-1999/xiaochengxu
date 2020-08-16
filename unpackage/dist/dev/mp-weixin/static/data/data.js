@@ -1,0 +1,32 @@
+let data = {
+     //这里放数据
+	 "data":[
+	 	{
+	 		"name": "豆瓣1",
+	 		"zuozhe": "小明"
+	 	},
+	 	{
+	 		"name": "豆瓣2",
+	 		"zuozhe": "小明"
+	 	},
+	 	{
+	 		"name": "豆瓣3",
+	 		"zuozhe": "小明"
+	 	},
+	 	{
+	 		"name": "豆瓣4",
+	 		"zuozhe": "小明"
+	 	},
+	 	{
+	 		"name": "豆瓣5",
+	 		"zuozhe": "小明"
+	 	},
+	 	{
+	 		"name": "豆瓣6",
+	 		"zuozhe": "小明"
+	 	}
+	 ]
+}
+module.exports = {
+  data: data
+}

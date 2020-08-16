@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/xiangqing/xiangqing",
+			"style": {
+				"navigationBarTitleText": "uni-详情"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#ffffff",
+		"selectedColor":"#f55500",
+		"backgroundColor":"#c8c8c8",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/images/kaishi-2.png",
+				"selectedIconPath":"static/images/kaishiH.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/xiangqing/xiangqing",
+				"iconPath":"static/images/fenlei.png",
+				"selectedIconPath":"static/images/fenlei_l.png",
+				"text":"发现"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"iconPath":"static/images/ren.png",
+				"selectedIconPath":"static/images/ren_l.png",
+				"text":"我的"
+			}
+		]
+	}
+	
+}
